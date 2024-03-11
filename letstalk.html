@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="let.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form action="https://panseakansha1@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New email Whooo!">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <div class="name-fields">
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+            </div>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
